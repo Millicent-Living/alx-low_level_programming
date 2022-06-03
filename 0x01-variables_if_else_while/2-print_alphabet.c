@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	char alp_bet[ ] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char alp_bet[ ] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 
 	for (i = 0; i < 52; i++)
