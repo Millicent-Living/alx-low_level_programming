@@ -1,19 +1,24 @@
 #include "main.h"
+
 /**
- * main - Prints _putchar as a message.
- *
- * Return: Always 0 (Success)
+ * main - print out main character by char.
+ * Description: uses the main header file
+ * that contains the function _putchar
+ * Return: 0.
  */
+
 int main(void)
 {
-	int str[] = {95, 112, 117, 116, 99, 104, 97, 114};
-	int num, sz;
+	char str[] = "_putchar";
+	int i;
 
-	sz = sizeof(str) / sizeof(int);
-	for (num = 0; num < sz; num++)
+	i = 0;
+	while (str[i])
 	{
-		_putchar(str[num]);
+		_putchar(str[i]);
+		++i;
 	}
 	_putchar('\n');
+
 	return (0);
 }
